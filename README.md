@@ -63,7 +63,6 @@ Recommended repository layout:
 ```text
 .
 |-- eeg_1010_head_dash.py
-|-- eeg_1010_head_dash_interactive_v3_2.py
 |-- default_eeg_1010_reference.csv
 |-- example_comparison_eeg_1010_mni_shifted.csv
 |-- README.md
@@ -73,13 +72,10 @@ File descriptions:
 
 | File | Description |
 |---|---|
-| `eeg_1010_head_dash.py` | Main app script. This can be the latest stable copy. |
-| `eeg_1010_head_dash_interactive_v3_2.py` | Versioned v3.2 app script. |
+| `eeg_1010_head_dash.py` | app script. |
 | `default_eeg_1010_reference.csv` | Default 10-10 reference electrode coordinate file. Place it in the same folder as the script. |
 | `example_comparison_eeg_1010_mni_shifted.csv` | Example comparison cap with small coordinate shifts for testing two-cap comparison. |
 | `README.md` | GitHub information page and user instructions. |
-
-You can keep only one app script if preferred. For example, rename `eeg_1010_head_dash_interactive_v3_2.py` to `eeg_1010_head_dash.py`.
 
 ---
 
@@ -173,7 +169,7 @@ python eeg_1010_head_dash.py
 The terminal should print a local address similar to:
 
 ```text
-Interactive 3D EEG 10-10 cap comparison viewer v3.2
+Interactive 3D EEG 10-10 cap comparison viewer v2.0
 Open http://127.0.0.1:8050
 ```
 
@@ -187,19 +183,6 @@ You should see the default 10-10 EEG cap on a 3D head surface.
 
 ---
 
-### Option B: Run the versioned script directly
-
-```bash
-python eeg_1010_head_dash_interactive_v3_2.py
-```
-
-Then open:
-
-```text
-http://127.0.0.1:8050
-```
-
----
 
 ### Option C: Run with your own reference CSV
 
