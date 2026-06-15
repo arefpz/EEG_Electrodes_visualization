@@ -1,0 +1,7 @@
+label,x,y,z,region
+F3,-45,51,63,"left dorsolateral prefrontal cortex; approximate custom annotation"
+F4,45,51,63,"right dorsolateral prefrontal cortex; approximate custom annotation"
+C3,-58,-15,76,"left primary motor/somatosensory hand area; approximate custom annotation"
+C4,58,-15,76,"right primary motor/somatosensory hand area; approximate custom annotation"
+Pz,0,-68,74,"precuneus/posterior parietal midline; approximate custom annotation"
+Oz,0,-96,31,"midline occipital visual cortex; approximate custom annotation"
